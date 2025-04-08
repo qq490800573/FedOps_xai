@@ -1,4 +1,5 @@
 # server requirements
 fedops
+numpy
 torchvision
 scikit-learn
