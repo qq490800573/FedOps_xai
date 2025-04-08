@@ -66,7 +66,7 @@ class manager_status(BaseModel):
     client_online: bool = False  # flower client online
     client_training: bool = False  # flower client learning
 
-    task_id: str = ''
+    task_id: str = 'xaitest'
     task_status: FLTask = None
 
     client_mac: str = get_mac_address()
